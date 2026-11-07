@@ -1,0 +1,13 @@
+{
+  "base_url": "https://api.daraz.lk/rest",
+  "auth_base": "https://api.daraz.lk",
+  "app_key": "REPLACE_WITH_APP_KEY",
+  "app_secret": "REPLACE_WITH_APP_SECRET",
+  "redirect_uri": "https://localhost",
+  "access_token": "",
+  "refresh_token": "",
+  "access_expires_at": 0,
+  "tz_offset": "+05:30",
+  "require_valid": true,
+  "days_back": 60
+}

@@ -1,0 +1,6 @@
+# Python deps for the FK Sales platform (local pipeline + Vercel functions).
+openpyxl>=3.1        # Odel .xlsx parsing, inbox detection
+reportlab>=4.0       # local invoice PDF rendering
+psycopg[binary]>=3.1 # Postgres driver (prod; unused when DATABASE_URL is SQLite/unset)
+pandas>=2.0          # Daraz export parsing  (heavy on Vercel — candidate to drop later)
+xlrd>=2.0            # legacy .xls (Daraz Business Advisor)

@@ -1,0 +1,33 @@
+{
+  "vat_rate": 0.18,
+  "currency": "LKR",
+  "supplier": {
+    "name": "Illukkumbura And Sons (PVT) Ltd.",
+    "tin": "104056520",
+    "address_lines": ["486, Sri Sangaraja Mawatha.", "Colombo 12."],
+    "email": "hello@forestkindbody.com",
+    "phone": "+94777251466"
+  },
+  "customer": {
+    "name": "ODEL PLC",
+    "tin": "114069116",
+    "address_lines": ["475/32, KOTTE RD", "RAJAGIRIYA"],
+    "place_of_supply": ["ODEL PLC", "475/32, KOTTE RD, +94 76 623 4586"]
+  },
+  "bank": {
+    "bank": "HNB",
+    "branch": "Panchicawatta",
+    "acc_no": "059010021925",
+    "payee": "Illukkumbura and Sons (Pvt) Ltd.",
+    "method": "CEFT"
+  },
+  "signoff": {
+    "invoiced_by": "Alex Ross",
+    "checked_by": "R. Illukkumbura",
+    "accepted_by": "ODEL PLC"
+  },
+  "google": {
+    "template_spreadsheet_id": "1zEPba1aBFKGTPvHNnLRAJchCrsg4PoVBgyC7toJYOfE",
+    "output_folder_id": "1_3f6aXqKzJp9101QJEzjlAKjSyzc0VGS"
+  }
+}

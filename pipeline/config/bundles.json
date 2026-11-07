@@ -1,0 +1,12 @@
+{
+  "FK-SET-WN-14": {
+    "name": "Wild Nectar Shampoo + Conditioner Duo",
+    "components": ["FK-SHP-WN-01", "FK-CON-WN-02"],
+    "split": "equal"
+  },
+  "FK-SET-LR-15": {
+    "name": "Lush Rain Shampoo + Conditioner Duo",
+    "components": ["FK-SHP-LR-03", "FK-CON-LR-04"],
+    "split": "equal"
+  }
+}

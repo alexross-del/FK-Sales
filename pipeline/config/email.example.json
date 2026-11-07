@@ -1,0 +1,25 @@
+{
+  "imap_host": "imap.gmail.com",
+  "imap_port": 993,
+  "username": "hello@forestkindbody.com",
+  "app_password": "REPLACE_WITH_APP_PASSWORD",
+  "mailbox": "INBOX",
+  "search_days": 21,
+  "channels": [
+    {
+      "channel": "ubereats",
+      "mode": "uber_link",
+      "from_contains": "uber",
+      "subject_contains": "report is ready to download",
+      "link_text": "Download",
+      "save_ext": ".csv"
+    },
+    {
+      "channel": "odel",
+      "mode": "attachment",
+      "from_contains": "",
+      "subject_contains": "Late Invoice",
+      "filename_regex": "\\.xlsx?$"
+    }
+  ]
+}

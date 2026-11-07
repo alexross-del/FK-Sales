@@ -1,0 +1,5 @@
+{
+  "_comment": "Next running numbers. Last issued was FKB00002 / ISI02342 (your sample PDF), so the next invoice is FKB00003 / ISI02343. Edit these if you need to skip or correct a number; the system never reuses a consumed number.",
+  "fkb_next": 6,
+  "isi_next": 2346
+}

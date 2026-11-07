@@ -1,0 +1,10 @@
+{
+  "base_url": "https://forestkindbody.com",
+  "consumer_key": "ck_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "consumer_secret": "cs_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "statuses": ["completed", "processing"],
+  "require_paid": true,
+  "days_back": 90,
+  "payment_fees": {"Cash": 0, "Card": 0, "Koko": 0, "Bank transfer": 0},
+  "extra_headers": {}
+}

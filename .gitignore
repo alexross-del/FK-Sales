@@ -1,0 +1,29 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+# WooCommerce consumer key/secret
+pipeline/config/woocommerce.json
+
+# Local data store, raw exports (customer PII), generated output
+data/
+output/
+*.db
+*.sqlite
+*.sqlite3
+
+# Loose source data files in the project root (exports)
+/*.xlsx
+/*.xls
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,10 @@
+{
+  "base_url": "https://YOUR-STORE-DOMAIN",
+  "consumer_key": "ck_REPLACE_WITH_READ_ONLY_KEY",
+  "consumer_secret": "cs_REPLACE_WITH_SECRET",
+  "statuses": ["completed", "processing"],
+  "require_paid": true,
+  "days_back": 90,
+  "extra_headers": {},
+  "payment_fees": { "Cash": 0, "Card": 0, "Koko": 0, "Bank transfer": 0 }
+}
